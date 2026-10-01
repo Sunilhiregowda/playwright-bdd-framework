@@ -1,0 +1,7 @@
+node_modules/
+dist/
+allure-results/
+reports/*.json
+reports/*.html
+reports/allure-report/
+screenshots/*.png
