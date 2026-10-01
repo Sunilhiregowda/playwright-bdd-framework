@@ -20,7 +20,7 @@ import {
 } from "playwright";
 import fs from "node:fs";
 import path from "node:path";
-import { settings, type BrowserName } from "../config/config";
+import { settings, type BrowserName } from "../utils/config/config";
 import { LoginPage } from "../pages/LoginPage";
 
 // Playwright Page is a tab; BrowserContext isolates cookies and storage; Browser owns the process.

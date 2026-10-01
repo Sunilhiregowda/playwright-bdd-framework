@@ -1,6 +1,6 @@
 // Step definitions translate each Gherkin sentence into a reusable page-object operation.
 import { Given, When, Then } from "@cucumber/cucumber";
-import { settings, requireValidCredentials } from "../config/config";
+import { settings, requireValidCredentials } from "../utils/config/config";
 import { CustomWorld } from "../hooks/hooks";
 
 Given(

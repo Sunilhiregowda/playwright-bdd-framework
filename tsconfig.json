@@ -12,7 +12,7 @@
     "types": ["node"]
   },
   "include": [
-    "config/**/*.ts",
+    "utils/config/**/*.ts",
     "hooks/**/*.ts",
     "pages/**/*.ts",
     "step-definitions/**/*.ts",

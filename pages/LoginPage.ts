@@ -1,7 +1,7 @@
 // Page Object Model: keep selectors and login-page interactions together and reusable.
 import assert from "node:assert/strict";
 import type { Locator, Page } from "playwright";
-import { settings } from "../config/config";
+import { settings } from "../utils/config/config";
 
 export class LoginPage {
   private readonly usernameInput: Locator;
